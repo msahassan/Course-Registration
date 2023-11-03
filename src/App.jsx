@@ -1,16 +1,18 @@
-
-import './App.css'
+import "./App.css";
+import Blogs from "./Components/Blogs/Blogs";
+import Bookmarks from "./Components/Bookmarks/Bookmarks";
+import Headers from "./Components/Header/Headers";
 
 function App() {
-  
-
   return (
     <>
-  
-      <h1 className='text-3xl font-bold'>Course Registration</h1>
-      
+      <Headers></Headers>
+      <div className="flex mt-12">
+        <Blogs></Blogs>
+        <Bookmarks></Bookmarks>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
