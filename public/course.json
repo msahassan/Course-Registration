@@ -1,0 +1,93 @@
+[
+    {
+      "id": "1",
+      "author": "Alice Smith",
+      "author_img": "https://example.com/alice.jpg",
+      "course_img": "https://i.ibb.co/sQj5TFv/pythons.jpg",
+      "course_title": "Introduction to Python",
+      "credit": "4",
+      "price": "$49.99",
+      "details": "Learn the fundamentals of Python programming for beginners."
+    },
+    {
+      "id": "2",
+      "author": "Bob Johnson",
+      "author_img": "https://example.com/bob.jpg",
+      "course_img": "https://i.ibb.co/0jkNc3D/javascript.jpg",
+      "course_title": "JavaScript Web Development",
+      "credit": "5",
+      "price": "$59.99",
+      "details": "Master web development with JavaScript and popular frameworks."
+    },
+    {
+      "id": "3",
+      "author": "Eve Davis",
+      "author_img": "https://example.com/eve.jpg",
+      "course_img": "https://i.ibb.co/Z6FJNhG/java.jpg",
+      "course_title": "Java Programming Advanced",
+      "credit": "6",
+      "price": "$69.99",
+      "details": "Advanced Java concepts and application development."
+    },
+    {
+      "id": "4",
+      "author": "Charlie Wilson",
+      "author_img": "https://example.com/charlie.jpg",
+      "course_img": "https://i.ibb.co/GFQHWv1/C.jpg",
+      "course_title": "C++ for Game Development",
+      "credit": "4",
+      "price": "$79.99",
+      "details": "Develop games using C++ and popular game engines."
+    },
+    {
+      "id": "5",
+      "author": "Grace Lee",
+      "author_img": "https://example.com/grace.jpg",
+      "course_img": "https://i.ibb.co/9Zvcg7G/data-science.jpg",
+      "course_title": "Data Science with R",
+      "credit": "4",
+      "price": "$89.99",
+      "details": "An introduction to data science and analysis with R."
+    },
+    {
+      "id": "6",
+      "author": "David Turner",
+      "author_img": "https://example.com/david.jpg",
+      "course_img": "https://i.ibb.co/jhJc9Tc/ruby.jpg",
+      "course_title": "Ruby on Rails Development",
+      "credit": "5",
+      "price": "$69.99",
+      "details": "Build web applications with Ruby on Rails framework."
+    },
+    {
+      "id": "7",
+      "author": "Olivia Brown",
+      "author_img": "https://example.com/olivia.jpg",
+      "course_img": "https://i.ibb.co/XzQzPg6/machine-leaning.jpg",
+      "course_title": "Machine Learning Basics",
+      "credit": "3",
+      "price": "$59.99",
+      "details": "Introduction to machine learning and algorithms."
+    },
+    {
+      "id": "8",
+      "author": "Frank Robinson",
+      "author_img": "https://example.com/frank.jpg",
+      "course_img": "https://i.ibb.co/Qmfcz7P/mobile-app.jpg",
+      "course_title": "Mobile App Development with Flutter",
+      "credit": "4",
+      "price": "$79.99",
+      "details": "Create cross-platform mobile apps using Flutter framework."
+    },
+    {
+      "id": "9",
+      "author": "Zoe Miller",
+      "author_img": "https://example.com/zoe.jpg",
+      "course_img": "https://i.ibb.co/VQCchCD/sql.jpg",
+      "course_title": "SQL Database Management",
+      "credit": "3",
+      "price": "$49.99",
+      "details": "Learn to manage and optimize SQL databases for applications."
+    }
+  ]
+  
