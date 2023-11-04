@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       <Headers></Headers>
-      <div className="flex mt-12">
+      <div className="flex mt-12 max-w-6xl mx-auto">
         <Blogs handleAddBookmark={handleAddBookmark} 
         
         ></Blogs>

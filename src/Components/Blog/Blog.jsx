@@ -12,16 +12,16 @@ const Blog = ({ blog, handleAddBookmark}) => {
     <div className="card-body p-5">
       <h2 className="card-title">{course_title}</h2>
       <p>{details}</p>
-      <div className="flex gap-4">
-        <div className="flex gap-1 items-center">
+      <div className="flex gap-3">
+        <div className="flex gap-1 items-center text-sm font-medium text-blue-600">
           <p><FaDollarSign></FaDollarSign></p>
-          <p>Price: $ {price}</p>
-          {/* <button onClick={()=> handleAddPrice(price)}> <span>Price:$ {price}</span> </button> */}
+          <p>Price:${price}</p>
+         
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 text-sm font-medium text-blue-600">
           <p><FaBookReader></FaBookReader></p>
-          <p>Credit: {credit} hr</p>
-        {/* <button onClick={()=> handleAddCredit(credit)}> <span>Credit:{credit} hr</span> </button> */}
+          <p>Credit: {credit}hr</p>
+        
         </div>
       </div>
       <div className="card-actions">
@@ -34,8 +34,7 @@ const Blog = ({ blog, handleAddBookmark}) => {
 
 Blog.propTypes = {
   blog: PropTypes.object,
-  handleAddBookmark : PropTypes.func,
-  // handleAddCredit : PropTypes.func,
-  // handleAddPrice : PropTypes.func
+  handleAddBookmark : PropTypes.func
+  
 };
 export default Blog;
