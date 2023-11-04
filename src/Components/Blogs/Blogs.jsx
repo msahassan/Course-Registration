@@ -14,14 +14,12 @@ const Blogs = ({handleAddBookmark}) => {
   return (
     <div className="w-2/3">
       
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {courses.map((blog) => (
           <Blog 
           key={blog.id} 
           blog={blog} 
           handleAddBookmark={handleAddBookmark}
-          // handleAddCredit = {handleAddCredit}
-          // handleAddPrice = {handleAddPrice}
           ></Blog>
         ))}
       </div>
@@ -32,8 +30,7 @@ const Blogs = ({handleAddBookmark}) => {
 Blogs.propTypes ={
     courses: PropTypes.object,
     handleAddBookmark: PropTypes.func,
-    // handleAddCredit : PropTypes.func,
-    // handleAddPrice : PropTypes.func
+    
 }
 
 export default Blogs;

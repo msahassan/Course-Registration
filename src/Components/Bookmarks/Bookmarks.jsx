@@ -12,7 +12,7 @@ const Bookmarks = ({ bookmarks,totalTime,timeLeft,totalPrice}) => {
         <Bookmark key={index} bookmark={bookmark}></Bookmark>
       ))}
       <hr />
-        <h3 className="mt-4 text-xl font-medium">Total Credit: {totalTime}  hr</h3>
+        <h3 className="mt-4 text-xl font-medium">Total Credit : {totalTime} hr</h3>
       <hr />
         { <h3 className="mt-4 text-xl font-medium">
          
