@@ -5,16 +5,16 @@ const Bookmarks = ({ bookmarks,totalTime,timeLeft,totalPrice}) => {
   return (
     <div className="w-1/3 mt-10  ">
         <div className="bg-slate-100 rounded-xl mx-8 p-7 ">
-        <h3 className="text-xl font-medium text-blue-500 mb-4">Credit Hour Remaining : {timeLeft} hr</h3>
+        <h3 className="text-lg font-medium text-blue-500 mb-4">Credit Hour Remaining : {timeLeft}hr</h3>
         <hr />   
-        <h3 className="mt-4 text-xl font-medium">Course Name:</h3>
+        <h3 className="mt-4 text-lg font-medium">Course Name:</h3>
         {bookmarks.map((bookmark, index) => (
         <Bookmark key={index} bookmark={bookmark}></Bookmark>
       ))}
       <hr />
-        <h3 className="mt-4 text-xl font-medium">Total Credit : {totalTime} hr</h3>
+        <h3 className="mt-4 text-lg font-medium">Total Credit : {totalTime} hr</h3>
       <hr />
-        { <h3 className="mt-4 text-xl font-medium">
+        { <h3 className="mt-4 text-lg font-medium">
          
           Total Price : {totalPrice} USD
         </h3> }
