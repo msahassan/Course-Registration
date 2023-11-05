@@ -43,11 +43,11 @@ function App() {
   return (
     <>
       <Headers></Headers>
-      <div className="flex mt-12 max-w-6xl mx-auto">
+      <div className="flex flex-col-reverse gap-5 lg:flex mt-12 max-w-6xl mx-auto">
         <Blogs handleAddBookmark={handleAddBookmark} 
         
         ></Blogs>
-        <Bookmarks 
+        <Bookmarks
         bookmarks={bookmarks} 
         
          totalPrice = {totalPrice}
